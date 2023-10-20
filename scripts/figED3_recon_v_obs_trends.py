@@ -138,23 +138,4 @@ sm = plt.cm.ScalarMappable(norm=norm,cmap=cmap)
 sm.set_array([])
 cbar = fig.colorbar(sm,cax=cax,orientation="horizontal",drawedges=False,ticks=levels,extend='both',shrink=0.8,pad=0.02)
 cbar.ax.set_xlabel("MARCH SWE TREND (%/DECADE)",labelpad=15)
-plt.savefig(os.path.join(project_dir,'figures','figED3.jpg'),bbox_inches='tight',dpi=400)
-
-
-# In[6]:
-
-
-p_recons
-
-
-# In[7]:
-
-
-p_obs
-
-
-# In[ ]:
-
-
-
-
+plt.savefig(os.path.join(project_dir,'figures','ed_fig3.jpg'),bbox_inches='tight',dpi=400)
