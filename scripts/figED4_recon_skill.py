@@ -188,7 +188,7 @@ rmse_sm = plt.cm.ScalarMappable(norm=rmse_norm,cmap=rmse_cmap)
 rmse_sm.set_array([])
 rmse_cbar = fig.colorbar(rmse_sm,ax=rmse_axes,orientation="horizontal",drawedges=False,ticks=rmse_levels,extend='max',shrink=0.9,pad=0.01)
 rmse_cbar.ax.set_xlabel(r"RMSE (%)",labelpad=15)
-plt.savefig(os.path.join(project_dir,'figures','figED4.png'),bbox_inches='tight',dpi=400)
+plt.savefig(os.path.join(project_dir,'figures','ed_fig4.jpg'),bbox_inches='tight',dpi=400)
 plt.show()
 
 
