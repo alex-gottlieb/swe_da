@@ -1,5 +1,5 @@
 # Evidence of human influence on Northern Hemisphere snow loss
-Replication code for "Evidence of human influence on Northern Hemisphere snow loss" by Gottlieb and Mankin (2023
+Replication code for "Evidence of human influence on Northern Hemisphere snow loss" by Gottlieb and Mankin.
 
 The repository contains three folders:
 - `data/`, where processed data is stored.
