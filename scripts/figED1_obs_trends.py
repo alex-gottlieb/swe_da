@@ -88,8 +88,7 @@ sm.set_array([])
 cbar = fig.colorbar(sm,ax=axes,orientation="horizontal",drawedges=False,ticks=levels,extend='both',shrink=0.8,pad=0.03)
 cbar.ax.set_xlabel("MARCH SWE TREND (%/DECADE)",labelpad=5)
 cbar.ax.set_xticklabels((10*levels).astype(int))
-plt.savefig(os.path.join(project_dir,'figures','figED1.png'),bbox_inches='tight',dpi=400)
-# plt.savefig(os.path.join(root_dir,'agottlieb','swe_da','nature_figures','ed_fig1.jpg'),bbox_inches='tight',dpi=400)
+plt.savefig(os.path.join(project_dir,'figures','ed_fig1.jpg'),bbox_inches='tight',dpi=400)
 
 
 # In[ ]:
